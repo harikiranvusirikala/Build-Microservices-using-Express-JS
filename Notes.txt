@@ -1,0 +1,2 @@
+$ mkdir auth_micro && cd auth_micro
+$ npm init -y
