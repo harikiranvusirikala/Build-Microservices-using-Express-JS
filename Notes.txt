@@ -1,3 +1,7 @@
 $ mkdir auth_micro && cd auth_micro
 $ npm init -y
 $ npm i express dotenv nodemon
+
+Start the applicaiton using
+$ npm run dev
+
