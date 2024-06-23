@@ -5,3 +5,8 @@ $ npm i express dotenv nodemon
 Start the applicaiton using
 $ npm run dev
 
+$ npm i -D prisma
+$ npx prisma
+$ npx prisma init
+- https://pris.ly/d/getting-started
+
