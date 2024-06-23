@@ -16,3 +16,10 @@ Prisma Schema Overview - https://pris.ly/d/prisma-schema
 
 $ npm i @prisma/client
 
+Get suggestions on schema.
+$ npx prisma generate
+-  https://pris.ly/d/client
+
+Sync database indexes with Prisma Schema (@unique, etc).
+$ npx prisma db push
+
