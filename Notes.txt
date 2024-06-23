@@ -23,3 +23,5 @@ $ npx prisma generate
 Sync database indexes with Prisma Schema (@unique, etc).
 $ npx prisma db push
 
+$ npm i cors
+
