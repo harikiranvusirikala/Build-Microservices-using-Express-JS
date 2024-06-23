@@ -10,3 +10,7 @@ $ npx prisma
 $ npx prisma init
 - https://pris.ly/d/getting-started
 
+Update Database URl, here using MongoDB Atlas https://cloud.mongodb.com/.
+
+Prisma Schema Overview - https://pris.ly/d/prisma-schema
+
