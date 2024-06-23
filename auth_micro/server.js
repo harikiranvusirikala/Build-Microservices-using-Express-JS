@@ -13,4 +13,8 @@ app.get("/", (req, res) => {
   return res.json({ message: "It's working ..." })
 })
 
+// * Routes
+import Routes from "./routes/index.js"
+app.use(Routes)
+
 app.listen(PORT, () => console.log(`Server running of PORT ${PORT}`))
