@@ -33,3 +33,6 @@ OR use Thunder Client VS Code extension
 The password being sent in not encrypted.
 $ npm i bcrypt
 
+Add multiple entries following above method.
+And verify in MongoDB Atlas website it is reflected (make sure to whitelist your IP in website first).
+
