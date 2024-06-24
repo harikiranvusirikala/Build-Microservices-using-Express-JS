@@ -37,3 +37,6 @@ Add multiple entries following above method.
 And verify in MongoDB Atlas website it is reflected (make sure to whitelist your IP in website first).
 
 $ npm i jsonwebtoken
+https://www.uuidgenerator.net/ -> Generates a UUID token
+Validate by sending request via Thunder Client VS Code extension
+
