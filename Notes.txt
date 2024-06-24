@@ -25,3 +25,11 @@ $ npx prisma db push
 
 $ npm i cors
 
+Testing
+$ npm run dev
+$ curl http://localhost:5001/api/auth/register -X POST -d '{"name":"hari", "email":"email@gmail.com", "password":"123456"}'
+OR use Thunder Client VS Code extension
+
+The password being sent in not encrypted.
+$ npm i bcrypt
+
