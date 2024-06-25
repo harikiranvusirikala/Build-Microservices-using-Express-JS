@@ -40,3 +40,11 @@ $ npm i jsonwebtoken
 https://www.uuidgenerator.net/ -> Generates a UUID token
 Validate by sending request via Thunder Client VS Code extension
 
+
+
+
+$ mkdir post_micro && cd post_micro
+$ npm init -y
+$ npm i cors dotenv express nodemon
+$ npm i -D prisma
+
