@@ -48,3 +48,9 @@ $ npm init -y
 $ npm i cors dotenv express nodemon
 $ npm i -D prisma
 
+$ npx prisma
+Primsa creates schema at prisma/schema.prisma, and we need to update DATABASE_URL in .env file.
+$ npx prisma init
+
+We can use postgresql in post microservice, but using MangoDB Atlas only here.
+
