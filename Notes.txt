@@ -54,3 +54,5 @@ $ npx prisma init
 
 We can use postgresql in post microservice, but using MangoDB Atlas only here.
 
+$ npx prisma migrate dev --name=post_table
+
