@@ -58,3 +58,5 @@ $ npx prisma migrate dev --name=post_table
 
 $ npm i jsonwebtoken
 
+$ npm i axios
+
