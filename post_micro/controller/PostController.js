@@ -27,16 +27,31 @@ class PostController {
       });
 
       //   Fetch users
-      const response = await axios.post( 
+      const response = await axios.post(
         `${process.env.AUTH_MICRO_URL}/api/getUsers`,
         userIds
       );
 
-      const users = response.data.users;
+      const users = {};
+      response.data.users.forEach((item) => {
+        users[item.id] = item;
+      });
 
+      // let postWithUsers = await Promise.all(
+      //   posts.map((post) => {
+      //     const user = response.data.users.find((item) => item.id === post.user_id);
+      //     return {
+      //       ...post,
+      //       user,
+      //     };
+      //   })
+      // );
+
+      //   * Method 3
       let postWithUsers = await Promise.all(
         posts.map((post) => {
-          const user = response.data.users.find((item) => item.id === post.user_id);
+          const user = users[post.user_id];
+
           return {
             ...post,
             user,
